@@ -1,6 +1,9 @@
+"""
+Requirements: pip install pendulum
+"""
+
 from glob import glob
 
-import json
 import pendulum
 
 files = glob("/Volumes/USB/PS4/SHARE/**/**/*.jpg")
